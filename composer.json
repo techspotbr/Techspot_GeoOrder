@@ -1,0 +1,24 @@
+{
+    "name": "techspot/geoorder",
+    "description": "The Tech Spot Module - GeoOrder for Magento 2 allows you to save the customer's Geolocation in the purchase order via google maps api.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "bruno@techspot.com.br",
+            "name": "Bruno Monteiro"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Techspot\\GeoOrder\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
